@@ -14,13 +14,13 @@ It reuses Hermes’s Telegram adapter against Bale’s Telegram-compatible Bot A
 ## Install
 
 ```bash
-hermes plugins install Websila/hermes-bale-bot --enable
+hermes plugins install kordkheili/hermes-bale-bot --enable
 ```
 
 Or from a full Git URL:
 
 ```bash
-hermes plugins install https://github.com/Websila/hermes-bale-bot.git --enable
+hermes plugins install https://github.com/kordkheili/hermes-bale-bot.git --enable
 ```
 
 Then restart the gateway for the profile that should use Bale (on a multiplex host, restart the **default** gateway).
